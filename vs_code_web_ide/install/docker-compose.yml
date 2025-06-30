@@ -1,0 +1,28 @@
+services:
+  code-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webide-pi5
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+      - PASSWORD=dein_sicheres_passwort
+      - SUDO_PASSWORD=admin123
+      - DEFAULT_WORKSPACE=/config/workspace
+    volumes:
+      - ./config:/config
+      - ./workspace:/config/workspace
+      - ./projects:/config/projects
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - "8087:8080"
+    restart: unless-stopped
+    user: "1000:1000"
+    networks:
+      - webide-network
+
+networks:
+  webide-network:
+    driver: bridge

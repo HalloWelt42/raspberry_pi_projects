@@ -1,5 +1,7 @@
 # 🚀 WebIDE Setup für Raspberry Pi 5
 
+![screenshot](./media/Bildschirmfoto%202025-06-30%20um%2019.03.09.png)
+
 Eine vollständige Anleitung zum Einrichten einer professionellen Web-Entwicklungsumgebung mit Docker auf dem Raspberry Pi 5.
 
 ## 📋 Was du bekommst
@@ -41,8 +43,6 @@ nano docker-compose.yml
 
 Inhalt einfügen:
 ```yaml
-version: '3.8'
-
 services:
   code-server:
     build:
