@@ -1,0 +1,10 @@
+services:
+  libretranslate:
+    image: libretranslate/libretranslate:latest
+    ports:
+      - "5005:5000"
+    environment:
+      - LT_LOAD_ONLY=en,de,fr,es
+      - LT_CORS_ALLOWED_ORIGINS=*
+      - LT_DEBUG=true
+    restart: unless-stopped
