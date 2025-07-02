@@ -15,9 +15,17 @@ Eine vollständige Anleitung zum Einrichten einer professionellen Web-Entwicklun
 
 ---
 
-## 🚀LibreTranslate Setup für Raspberry Pi 5
+## 🚀 LibreTranslate Setup für Raspberry Pi 5
 
 Ein Übersetzungsdienst, der auf dem Raspberry Pi 5 läuft und Docker verwendet.
 Anleitung zum Einrichten und Konfigurieren des Dienstes.
 
 - [install.md](./libretranslate_projekt/install.md)
+
+---
+
+## 🚀 cypth eMail-Client Setup für Raspberry Pi 5 und netcup
+Ein einfacher, aber effektiver E-Mail-Client, der auf dem Raspberry Pi 5 läuft und Docker verwendet.
+- [install.md](./web_mail_client_cypht/install.md)
+
+---
