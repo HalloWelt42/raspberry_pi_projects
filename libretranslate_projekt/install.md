@@ -9,7 +9,7 @@ Empfohlene Ordnerstruktur:
 ```bash
 libretranslate-project/
 ├── docker-compose.yml
-└── setup.sh
+└── setup_netcup.sh
 ```
 
 ---
@@ -84,13 +84,13 @@ echo "✅ LibreTranslate läuft auf http://localhost:5005"
 Speichere es als `setup.sh` und mache es ausführbar:
 
 ```bash
-chmod +x setup.sh
+chmod +x setup_netcup.sh
 ```
 
 Dann ausführen mit:
 
 ```bash
-./setup.sh
+./setup_netcup.sh
 ```
 
 ---

@@ -182,7 +182,7 @@ Speichern: `Ctrl+X`, dann `Y`, dann `Enter`
 
 Erstelle die Datei:
 ```bash
-nano setup.sh
+nano setup_netcup.sh
 ```
 
 Inhalt einfügen:
@@ -264,7 +264,7 @@ echo ""
 
 Speichern und ausführbar machen:
 ```bash
-chmod +x setup.sh
+chmod +x setup_netcup.sh
 ```
 
 ---
@@ -274,7 +274,7 @@ chmod +x setup.sh
 ### Option A: Automatisch mit Setup-Script
 
 ```bash
-./setup.sh
+./setup_netcup.sh
 ```
 
 Das war's! Das Script macht alles automatisch.
