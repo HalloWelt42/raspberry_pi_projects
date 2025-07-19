@@ -1,6 +1,6 @@
 # LibreTranslate Setup für Raspberry Pi 5
 
-![screenshot](media/Bildschirmfoto 2025-06-30 um 18.30.07.png)
+![screenshot](media/Bildschirmfoto%202025-06-30%20um%2018.30.07.png)
 
 ## 📁 Projektstruktur
 
